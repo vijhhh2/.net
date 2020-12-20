@@ -4,8 +4,19 @@ namespace bookstore
 {
     public class HomeController : Controller
     {
-        public string Index() {
-            return "Hello World From controller";
+        public ViewResult Index()
+        {
+            return View();
+        }
+
+        public ViewResult AboutUs()
+        {
+            return View();
+        }
+
+        public ViewResult ContactUs()
+        {
+            return View();
         }
     }
 }
